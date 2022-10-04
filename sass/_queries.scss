@@ -1,0 +1,53 @@
+
+       ///// below 1200px /////
+@media only screen and (max-width: 75em) {
+    .container {margin: 0;}
+
+}
+
+       ///// below 1100px /////
+@media only screen and (max-width: 68.75em) {
+    html {font-size: 50%;}
+    .container {max-width: 100%;}
+
+}
+
+       ///// below 900px /////
+@media only screen and (max-width: 56.25em) {
+    .side-nav {display: flex; margin: 0%;}
+    .side-nav__item {flex: 1;}
+    .side-nav__link:visited {justify-content: center; padding: 2rem;}
+    .side-nav__link:link {justify-content: center; padding: 2rem;}
+    .content {flex-direction: column;}
+    .legal {display: none;}
+    .detail {padding: 3rem !important;}
+    .description {padding: 2rem !important; margin-right: 3rem !important;}
+    .review {padding: 2rem !important; margin-bottom: 3rem !important;}
+    .cta {padding: 2.5rem 0 !important;}
+    .recommend {margin-top: 0rem !important;}
+}
+
+
+       ///// below 600px /////
+       @media only screen and (max-width: 37.5em) {
+        .detail {flex-direction: column;}
+        .description {margin-right: 0 !important; margin-bottom: 3rem !important; }
+        .side-nav__link:visited, .side-nav__link:link {flex-direction: column; padding: 1.5rem;}
+        .side-nav__icon {margin-right: 0;}
+        .cta {margin-top: -1.5rem;}
+        .overview__heading {font-size: 1.6rem; padding: 1.5rem 1rem;}
+        .overview__location {padding: 0 0.5rem;}
+        .user-nav__icon-box {padding: 0 0.7rem;}
+        .user-nav__user {padding: 0 0.7rem;}
+        .cta {margin-top: -2.5rem !important;}
+        .user-menu-box {width: 20rem !important;}
+        
+       }
+
+
+       ////// Below 500px /////// 
+       @media only screen and (max-width: 31.25em) {
+        .search {order: -1;}
+        .logo {margin-left: 0rem;}
+       }
+
